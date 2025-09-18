@@ -5,6 +5,10 @@
 
 def main():
     #Write your code here
+    cats = input('Cats: ')
+    cat_list = cats.split()
+    num_cats = len(cat_list)
+    print(f"You have {str(num_cats)} cats.")
     
 
 
@@ -15,5 +19,5 @@ def main():
 
 
 
- if __name__ == '__main__':
+if __name__ == '__main__':
     main()
